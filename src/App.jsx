@@ -5,11 +5,13 @@ import Refer from "./pages/Refer/Refer";
 import Award from "./pages/Awards/Award";
 import MenuCard from "./components/MenuCard";
 import Registation from "./pages/Registation/Registation";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   const Layout = () => {
     return (
-      <div className="main">
+      <div className="Lay">
+        <Navbar />
         <div className="container">
           <div className="MenuContainer">
             <MenuCard />

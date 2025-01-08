@@ -1,0 +1,78 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0.5px 0.5px 5px rgb(196, 195, 195);
+  height: 150px;
+}
+.name-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+.profile-pic {
+  margin-right: -5px;
+}
+.profile-pic img {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.progress-bar {
+  height: 85px;
+  width: 85px;
+}
+.mail {
+  padding-right: 10px;
+  margin-left: 20px;
+}
+.mail,
+h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.mail,
+h3 {
+  font-size: 15px;
+  font-weight: 300;
+}
+h4 {
+  text-align: center;
+  font-weight: 500;
+  color: #00458a;
+  padding-top: 10px;
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+h5 {
+  font-size: 18px;
+}
+.box-2 {
+  display: flexbox;
+  justify-content: center;
+}
+button {
+  background-color: #00458a;
+  margin: 20px;
+  padding: 7px;
+  color: white;
+}
+.stay {
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+.stay h3 {
+  font-size: 25px;
+}
+.box-3 {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.box-3 h3 {
+  font-size: 20px;
+}
+.box-3 img {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}

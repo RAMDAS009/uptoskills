@@ -1,43 +1,17 @@
 import React from "react";
 import "./MenuCard.css";
 import { Circle } from "rc-progress";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const MenuCard = () => {
   return (
-    <div className="main">
-      <div className="name-card">
-        <div className="profile-pic">
-          <div className="progress-bar" style={{ position: "relative" }}>
-            <Circle percent={66} strokeWidth={8} strokeColor="green" />
-          </div>
-          <img
-            src="./images/man-avatar.png"
-            alt=""
-            style={{
-              width: "71px",
-              height: "70px",
-              "border-radius": "50%",
-              backgroundPosition: "center",
-              "background-size": "cover",
-              position: "absolute",
-              top: "5%",
-              left: "0%",
-            }}
-          />
-        </div>
-        <div className="mail">
-          <h2>Ramdas Sakpal</h2>
-          <h3>ramdas@gamil.com</h3>
-        </div>
-      </div>
-      <h4>Complete Your Profile </h4>
+    <div className="content">
       <div className="menu-card">
         <div className="item">
-          <Link to="/" className="divclass">
+          <NavLink to="/" className="divclass">
             <img src="./images/user-plus.png" alt="" />
             <p>Registration</p>
-          </Link>
+          </NavLink>
           <Link to="refer" className="divclass">
             <img src="./images/refer-and-earn.png" alt="" />
             <p>Refer And Earn</p>
@@ -99,6 +73,13 @@ const MenuCard = () => {
           <div className="divclass">
             <img src="./images/account-setting.png" alt="" />
             <p>Account Setting</p>
+          </div>
+          <div className="divclass">
+            <div class="check">
+              <input id="check" type="checkbox"></input>
+              <label for="check"></label>
+            </div>
+            <p>Light Mode</p>
           </div>
         </div>
       </div>
